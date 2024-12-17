@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(230, 171, 68);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+
+.er{
+    background-color: antiquewhite;
+    margin: 10vh;
+}
+
+/* navigation bar part */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav h1{
+    padding-left: 20px;
+}
+.nav li{
+    display: inline-block;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(7, 1, 1);
+}
+
+
+/* body */
+.body1 {
+   display: flex;
+   padding: 20px;
+   margin-top: 2%;
+   justify-content: space-between;
+   align-items: center;
+}
+input[type="email"], input[type="submit"] 
+{ 
+    background-color: rgb(229, 226, 234);  text-align: center; 
+    font-size: 16px; 
+    margin: 4px 2px; cursor: pointer; 
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+input[type="button"], input[type="submit"] 
+{ 
+    background-color: rgb(237, 153, 36);  text-align: center; 
+    font-size: 16px; 
+    margin: 4px 2px; cursor: pointer; 
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+.body1 img{
+    width: 80%;
+    align-items: center;
+}
+.content{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    padding-left: 2%;
+}
+
+/* footer part */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer li{
+    display: inline-block;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    padding-right:10px ;
+}
